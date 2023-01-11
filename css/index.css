@@ -5099,6 +5099,29 @@ span.mathjax-overflow {
 .snackbar-css {
   border-radius: 5px !important;
 }
+[data-theme="dark"] #web_bg {
+  background: url(https://iainixzy-image-1304973859.cos.ap-shanghai.myqcloud.com/20230111204917.png);
+  background-attachment: local;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+@media screen and (max-width: 800px) {
+  #web_bg {
+    background: url(https://iainixzy-image-1304973859.cos.ap-shanghai.myqcloud.com/748a31364d194d419020419f204265f0.jpg)#【可选】移动端日间默认背景 !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+  [data-theme="dark"] #web_bg {
+    background: url(https://iainixzy-image-1304973859.cos.ap-shanghai.myqcloud.com/20230111204917.png) !important;
+    background-attachment: local !important;
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
 #article-container .btn-center {
   margin: 0 0 20px;
   text-align: center;
