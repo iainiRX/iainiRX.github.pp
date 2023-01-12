@@ -3,12 +3,12 @@
   width: 100%;
   position: absolute;
   left: 0;
-  bottom: -11px;
-  z-index: 5;
+  bottom: -1px;
+  z-index: 1;
 }
 .waves-area .waves-svg {
   width: 100%;
-  height: 5rem;
+  height: 6rem;
 }
 /* Animation */
 
