@@ -89,15 +89,7 @@
   }
 
 
-  /* 导航栏 */
-#page-header.not-top-img {
-	display: flex;
-    justify-content: center;
-}
-#page-header.not-top-img #nav {
-	/* 1450 - 30 px  */
-	max-width: 1420px;
-}
+
 
 /* 即刻短文 */
 #bbTimeList {
