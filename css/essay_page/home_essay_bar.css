@@ -87,3 +87,28 @@
       transform: rotate(-1turn);
     }
   }
+
+
+  /* 导航栏 */
+#page-header.not-top-img {
+	display: flex;
+    justify-content: center;
+}
+#page-header.not-top-img #nav {
+	/* 1450 - 30 px  */
+	max-width: 1420px;
+}
+
+/* 即刻短文 */
+#bbTimeList {
+	/* 1450 - 30 px  */
+	max-width: 1420px;
+}
+
+/* 正文 */
+.layout {
+	max-width: 1450px!important;
+}
+.aside-content {
+	max-width: unset;
+}
